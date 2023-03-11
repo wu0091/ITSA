@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-	int sh=0,sm=0,eh=0,em=0;//sh¶}©l¤p®É sm¶}©l¤ÀÄÁ ehµ²§ô¤p®É emµ²§ô¤ÀÄÁ 
+	int sh=0,sm=0,eh=0,em=0;//shé–‹å§‹å°æ™‚ smé–‹å§‹åˆ†é˜ ehçµæŸå°æ™‚ emçµæŸåˆ†é˜ 
 	cin>>sh>>sm;
 	cin>>eh>>em;
 	int t=(eh*60+em)-(sh*60+sm);
