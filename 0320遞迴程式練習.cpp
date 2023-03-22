@@ -1,15 +1,18 @@
-#include <iostream>  
-using namespace std;  
-  
-int funtion(int num) {  
-    if ((num == 0) || (num == 1))  
-        return num + 1;  
-    else  
-        return funtion(num - 1) + funtion(num / 2);  
-}  
-int main() {  
-    int num;  
-    cin >> num;  
-    cout << funtion(num) << endl;  
-    return 0;  
+#include <iostream>     
+using namespace std;     
+     
+  int f(int n){   
+    if(n==0||n==1) {   
+     return n+=1;   
+          
+   }else if(n>1){   
+      return f(n-1)+f(n/2);   
+  }      
+   }    
+int main() {     
+    int n;     
+    cin >> n;    
+      
+     cout<<f(n)<<endl;   
+     return 0;   
 }
